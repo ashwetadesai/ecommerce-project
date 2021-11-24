@@ -1,0 +1,37 @@
+.card{
+    height:60vh;
+    padding:25px;
+    margin:25px;
+   
+}
+
+.center{
+    position:absolute;
+    top:40%;
+    left:40%;
+    text-align: center;
+}
+.center img{
+    height:100px;
+    width:100px;
+    
+    
+}
+#image:hover{
+    
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+h4 h6{
+    font-weight: 400;
+}
+.card-table{
+    position:relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(77, 75, 75);
+    background-clip: border-box;
+    min-width: none;
+    word-wrap: break-word;
+}

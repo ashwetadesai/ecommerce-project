@@ -1,0 +1,25 @@
+.form-control{
+    border-radius: 2px;
+    width:500px;
+    margin-left:30px;
+}
+.search-icon{
+    position: absolute;
+    color: blue;
+    margin-left:43%;
+    margin-top:10px;
+    z-index:10;
+
+}
+.fixed{
+    position:fixed;
+    width:100%;
+    transition: 0.2s linear;
+    top:0px;
+    
+}
+.nofixed{
+    position:static;
+    top:-50px;
+    transition:0.2s linear;
+}

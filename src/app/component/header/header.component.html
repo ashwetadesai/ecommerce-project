@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar bg-primary shadow-sm" (scroll)="onscroll()" [ngClass]="navbarfixed ?'fixed':'nofixed'">
+        <div class="navbar-brand align-item-center d-flex">
+            <i  class="fas fa-shipping-fast" style="margin-left: 10px; color:white; margin-top: 5px; font-size: 40px;"></i>&nbsp;
+                <b style="color:white;font-size: 30px;">Flipkart</b>
+            
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="search your product" (keyup)="search($event)">
+                </div>
+                <span class="fas fa-search search-icon"></span>
+         
+        </div>
+        <div>
+            <button  routerLink="/cart" class="btn btn-primary" style="margin-right: 30px;">
+                <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+                <div  style="font-size: 10px;" class="badge bg-danger">{{totalitem}}</div>
+            </button>
+        </div>
+    </div>
+</header>
